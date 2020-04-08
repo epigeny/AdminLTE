@@ -10,6 +10,7 @@
   padding: $brand-link-padding-y $sidebar-padding-x;
   transition: width $transition-speed $transition-fn;
   white-space: nowrap;
+  padding: 1.5em 0;
 
   &:hover {
     color: $white;

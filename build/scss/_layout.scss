@@ -403,7 +403,7 @@ body,
   .layout-top-nav & {
     margin-left: 0;
 
-    .main-header {    
+    .main-header {
       .brand-image {
         margin-top: -.5rem;
         margin-right: .2rem;
@@ -484,6 +484,23 @@ body:not(.sidebar-mini-md) {
 
 .content-wrapper {
   background: $main-bg;
+
+  .jumbotron {
+      background: linear-gradient(45deg, #35aaaa 0%, #4572c1 100%);
+      color: $white !important;
+  }
+
+  .jumbotron:after {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      background-image: url("https://cartagene.qc.ca/themes/cartagene_bootstrap/images/header-pattern.png");
+      z-index: 0;
+      height: 300px;
+  }
 
   > .content {
     padding: $content-padding-y $content-padding-x;
@@ -579,8 +596,12 @@ body:not(.sidebar-mini-md) {
 .main-footer {
   background: $main-footer-bg;
   border-top: $main-footer-border-top;
-  color: lighten($gray-700, 25%);
+  color: #d3d3d3 !important;
   padding: $main-footer-padding;
+
+  a {
+    color: $white !important;
+  }
 
   .text-sm &,
   &.text-sm {
@@ -590,6 +611,9 @@ body:not(.sidebar-mini-md) {
 
 .content-header {
   padding: 15px $content-padding-x;
+  background: linear-gradient(45deg, #35aaaa 0%, #4572c1 100%);
+  color: $white;
+  margin-bottom: 1em;
 
   .text-sm & {
     padding: 10px $content-padding-x;
@@ -598,6 +622,7 @@ body:not(.sidebar-mini-md) {
   h1 {
     font-size: 1.8rem;
     margin: 0;
+    color: $white !important;
 
     .text-sm & {
       font-size: 1.5rem;
@@ -610,13 +635,35 @@ body:not(.sidebar-mini-md) {
     margin-bottom: 0;
     padding: 0;
 
+    .breadcrumb-item a {
+      color: #89C8D6;
+    }
+
+    .breadcrumb-item a:hover {
+      color: $white;
+    }
+
+    .breadcrumb-item.active {
+      color: $white;
+    }
+
     .text-sm & {
       line-height: 1.5rem;
     }
   }
 }
 
-
+.content-header:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("https://cartagene.qc.ca/themes/cartagene_bootstrap/images/header-pattern.png");
+    z-index: 0;
+    height: 100px;
+}
 
 .hold-transition {
   .content-wrapper,

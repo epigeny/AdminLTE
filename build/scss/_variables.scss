@@ -99,7 +99,7 @@ $main-footer-height-inner: (($font-size-root * $line-height-base) + ($main-foote
 $main-footer-height: calc(#{$main-footer-height-inner} + #{$main-footer-border-top-width}) !default;
 $main-footer-height-sm-inner: (($font-size-sm * $line-height-base) + ($main-footer-padding-sm * 2)) !default;
 $main-footer-height-sm: calc(#{$main-footer-height-sm-inner} + #{$main-footer-border-top-width}) !default;
-$main-footer-bg: $white !default;
+$main-footer-bg: #1b222f !default;
 
 // SIDEBAR SKINS
 // --------------------------------------------------------
@@ -205,7 +205,7 @@ $button-line-height-xs: $line-height-sm !default;
 $button-font-size-xs: ($font-size-base * .75) !default;
 $button-border-radius-xs: .15rem !default;
 
-  
+
 // ELEVATION
 // --------------------------------------------------------
 $elevations: ();
@@ -216,7 +216,7 @@ $elevations: map-merge((
     4: unquote('0 14px 28px ' + rgba($black, 0.25) + ', 0 10px 10px ' + rgba($black, 0.22)),
     5: unquote('0 19px 38px ' + rgba($black, 0.30) + ', 0 15px 12px ' + rgba($black, 0.22)),
 ), $elevations);
-  
+
 // RIBBON
 // --------------------------------------------------------
 $ribbon-border-size: 3px !default;

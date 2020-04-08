@@ -635,8 +635,8 @@ body:not(.sidebar-mini-md) {
     margin-bottom: 0;
     padding: 0;
 
-    .breadcrumb-item a {
-      color: #89C8D6;
+    .breadcrumb-item a, .breadcrumb-item+.breadcrumb-item::before {
+      color: #89C8D6 !important;
     }
 
     .breadcrumb-item a:hover {

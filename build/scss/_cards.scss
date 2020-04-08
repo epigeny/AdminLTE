@@ -472,3 +472,18 @@ html.maximized-card {
     }
   }
 }
+
+.card-front.card-outline {
+  .card-header {
+    border-bottom: 0;
+    padding: (($card-spacer-y / 2) * 2) 0 0 0;
+  }
+  .card-body {
+    padding: (($card-spacer-y / 2) * 2) 0;
+  }
+  border-top: 0;
+  background: url("https://cartagene.qc.ca/themes/cartagene_bootstrap/images/referenced-title-pattern.png") repeat-x left top;
+  padding-top: $card-spacer-y;
+  border-radius: 0;
+  box-shadow: none;
+}

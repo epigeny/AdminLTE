@@ -10,7 +10,7 @@
   padding: $brand-link-padding-y $sidebar-padding-x;
   transition: width $transition-speed $transition-fn;
   white-space: nowrap;
-  padding: 1.5em 0;
+  padding: 1.15em 0;
 
   &:hover {
     color: $white;
@@ -36,8 +36,8 @@
     line-height: .8;
     margin-left: .8rem;
     margin-right: .5rem;
-    margin-top: -3px;
-    max-height: 33px;
+    margin-top: -10px;
+    max-height: 50px;
     width: auto;
   }
 

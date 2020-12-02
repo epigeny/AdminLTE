@@ -653,7 +653,7 @@ body:not(.sidebar-mini-md) {
   }
 }
 
-.content-header:after {
+/*.content-header:after {
     content: '';
     position: absolute;
     left: 0;
@@ -663,7 +663,7 @@ body:not(.sidebar-mini-md) {
     background-image: url("https://cartagene.qc.ca/themes/cartagene_bootstrap/images/header-pattern.png");
     z-index: 0;
     height: 100px;
-}
+}*/
 
 .hold-transition {
   .content-wrapper,

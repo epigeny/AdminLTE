@@ -10356,17 +10356,6 @@ body,
   height: calc(4.93725rem + 1px);
 }
 
-<<<<<<< HEAD
-=======
-body:not(.layout-fixed).layout-navbar-fixed .wrapper .main-sidebar {
-  margin-top: calc(calc(5.5rem + 1px) / -1);
-}
-
-body:not(.layout-fixed).layout-navbar-fixed .wrapper .main-sidebar .sidebar {
-  margin-top: calc(5.5rem + 1px);
-}
-
->>>>>>> 0021783d... navbar height
 body:not(.layout-fixed).layout-navbar-fixed.text-sm .wrapper .main-sidebar {
   margin-top: calc(calc(4.93725rem + 1px) / -1);
 }
@@ -10645,17 +10634,6 @@ body:not(.layout-fixed).layout-navbar-fixed.text-sm .wrapper .main-sidebar .side
   margin-top: calc(4.93725rem + 1px);
 }
 
-<<<<<<< HEAD
-=======
-body:not(.layout-fixed).layout-navbar-fixed .wrapper .main-sidebar {
-  margin-top: calc(calc(5.5rem + 1px) / -1);
-}
-
-body:not(.layout-fixed).layout-navbar-fixed .wrapper .main-sidebar .sidebar {
-  margin-top: calc(5.5rem + 1px);
-}
-
->>>>>>> 0021783d... navbar height
 body:not(.layout-fixed).layout-navbar-fixed.text-sm .wrapper .main-sidebar {
   margin-top: calc(calc(4.93725rem + 1px) / -1);
 }
@@ -10795,15 +10773,6 @@ body:not(.layout-fixed).layout-navbar-fixed.text-sm .wrapper .main-sidebar .side
   .layout-sm-navbar-fixed.text-sm .wrapper .content-wrapper {
     margin-top: calc(4.93725rem + 1px);
   }
-<<<<<<< HEAD
-=======
-  body:not(.layout-fixed).layout-sm-navbar-fixed .wrapper .main-sidebar {
-    margin-top: calc(calc(5.5rem + 1px) / -1);
-  }
-  body:not(.layout-fixed).layout-sm-navbar-fixed .wrapper .main-sidebar .sidebar {
-    margin-top: calc(5.5rem + 1px);
-  }
->>>>>>> 0021783d... navbar height
   body:not(.layout-fixed).layout-sm-navbar-fixed.text-sm .wrapper .main-sidebar {
     margin-top: calc(calc(4.93725rem + 1px) / -1);
   }
@@ -10939,15 +10908,6 @@ body:not(.layout-fixed).layout-navbar-fixed.text-sm .wrapper .main-sidebar .side
   .layout-md-navbar-fixed.text-sm .wrapper .content-wrapper {
     margin-top: calc(4.93725rem + 1px);
   }
-<<<<<<< HEAD
-=======
-  body:not(.layout-fixed).layout-md-navbar-fixed .wrapper .main-sidebar {
-    margin-top: calc(calc(5.5rem + 1px) / -1);
-  }
-  body:not(.layout-fixed).layout-md-navbar-fixed .wrapper .main-sidebar .sidebar {
-    margin-top: calc(5.5rem + 1px);
-  }
->>>>>>> 0021783d... navbar height
   body:not(.layout-fixed).layout-md-navbar-fixed.text-sm .wrapper .main-sidebar {
     margin-top: calc(calc(4.93725rem + 1px) / -1);
   }
@@ -11083,15 +11043,6 @@ body:not(.layout-fixed).layout-navbar-fixed.text-sm .wrapper .main-sidebar .side
   .layout-lg-navbar-fixed.text-sm .wrapper .content-wrapper {
     margin-top: calc(4.93725rem + 1px);
   }
-<<<<<<< HEAD
-=======
-  body:not(.layout-fixed).layout-lg-navbar-fixed .wrapper .main-sidebar {
-    margin-top: calc(calc(5.5rem + 1px) / -1);
-  }
-  body:not(.layout-fixed).layout-lg-navbar-fixed .wrapper .main-sidebar .sidebar {
-    margin-top: calc(5.5rem + 1px);
-  }
->>>>>>> 0021783d... navbar height
   body:not(.layout-fixed).layout-lg-navbar-fixed.text-sm .wrapper .main-sidebar {
     margin-top: calc(calc(4.93725rem + 1px) / -1);
   }
@@ -11227,15 +11178,6 @@ body:not(.layout-fixed).layout-navbar-fixed.text-sm .wrapper .main-sidebar .side
   .layout-xl-navbar-fixed.text-sm .wrapper .content-wrapper {
     margin-top: calc(4.93725rem + 1px);
   }
-<<<<<<< HEAD
-=======
-  body:not(.layout-fixed).layout-xl-navbar-fixed .wrapper .main-sidebar {
-    margin-top: calc(calc(5.5rem + 1px) / -1);
-  }
-  body:not(.layout-fixed).layout-xl-navbar-fixed .wrapper .main-sidebar .sidebar {
-    margin-top: calc(5.5rem + 1px);
-  }
->>>>>>> 0021783d... navbar height
   body:not(.layout-fixed).layout-xl-navbar-fixed.text-sm .wrapper .main-sidebar {
     margin-top: calc(calc(4.93725rem + 1px) / -1);
   }
@@ -28069,11 +28011,7 @@ blockquote.quote-gray-dark h6 {
 }
 
 .text-blue {
-<<<<<<< HEAD
-  color: #007bff !important;
-=======
-  color: #3498DB;
->>>>>>> 8278672c... Cag colors, layout and background images
+  color: #3498DB !important;
 }
 
 .text-indigo {
@@ -28101,11 +28039,7 @@ blockquote.quote-gray-dark h6 {
 }
 
 .text-green {
-<<<<<<< HEAD
-  color: #28a745 !important;
-=======
-  color: #149a80;
->>>>>>> 8278672c... Cag colors, layout and background images
+  color: #149a80 !important;
 }
 
 .text-teal {
@@ -29574,23 +29508,13 @@ a.text-muted:hover {
 }
 
 .accent-primary .btn-link,
-<<<<<<< HEAD
 .accent-primary a:not(.dropdown-item):not(.btn-app):not(.nav-link):not(.brand-link):not(.page-link):not(.btn) {
-  color: #007bff;
-}
-
-.accent-primary .btn-link:hover,
-.accent-primary a:not(.dropdown-item):not(.btn-app):not(.nav-link):not(.brand-link):not(.page-link):not(.btn):hover {
-  color: #0056b3;
-=======
-.accent-primary a:not(.dropdown-item):not(.btn-app):not(.nav-link):not(.brand-link):not(.page-link) {
   color: #3498DB;
 }
 
 .accent-primary .btn-link:hover,
-.accent-primary a:not(.dropdown-item):not(.btn-app):not(.nav-link):not(.brand-link):not(.page-link):hover {
+.accent-primary a:not(.dropdown-item):not(.btn-app):not(.nav-link):not(.brand-link):not(.page-link):not(.btn):hover {
   color: #1d6fa5;
->>>>>>> 8278672c... Cag colors, layout and background images
 }
 
 .accent-primary .dropdown-item:active, .accent-primary .dropdown-item.active {
@@ -29714,23 +29638,13 @@ a.text-muted:hover {
 }
 
 .accent-success .btn-link,
-<<<<<<< HEAD
 .accent-success a:not(.dropdown-item):not(.btn-app):not(.nav-link):not(.brand-link):not(.page-link):not(.btn) {
-  color: #28a745;
-}
-
-.accent-success .btn-link:hover,
-.accent-success a:not(.dropdown-item):not(.btn-app):not(.nav-link):not(.brand-link):not(.page-link):not(.btn):hover {
-  color: #19692c;
-=======
-.accent-success a:not(.dropdown-item):not(.btn-app):not(.nav-link):not(.brand-link):not(.page-link) {
   color: #149a80;
 }
 
 .accent-success .btn-link:hover,
-.accent-success a:not(.dropdown-item):not(.btn-app):not(.nav-link):not(.brand-link):not(.page-link):hover {
+.accent-success a:not(.dropdown-item):not(.btn-app):not(.nav-link):not(.brand-link):not(.page-link):not(.btn):hover {
   color: #0b5648;
->>>>>>> 8278672c... Cag colors, layout and background images
 }
 
 .accent-success .dropdown-item:active, .accent-success .dropdown-item.active {
@@ -30504,23 +30418,13 @@ a.text-muted:hover {
 }
 
 .accent-blue .btn-link,
-<<<<<<< HEAD
 .accent-blue a:not(.dropdown-item):not(.btn-app):not(.nav-link):not(.brand-link):not(.page-link):not(.btn) {
-  color: #007bff;
-}
-
-.accent-blue .btn-link:hover,
-.accent-blue a:not(.dropdown-item):not(.btn-app):not(.nav-link):not(.brand-link):not(.page-link):not(.btn):hover {
-  color: #0056b3;
-=======
-.accent-blue a:not(.dropdown-item):not(.btn-app):not(.nav-link):not(.brand-link):not(.page-link) {
   color: #3498DB;
 }
 
 .accent-blue .btn-link:hover,
-.accent-blue a:not(.dropdown-item):not(.btn-app):not(.nav-link):not(.brand-link):not(.page-link):hover {
+.accent-blue a:not(.dropdown-item):not(.btn-app):not(.nav-link):not(.brand-link):not(.page-link):not(.btn):hover {
   color: #1d6fa5;
->>>>>>> 8278672c... Cag colors, layout and background images
 }
 
 .accent-blue .dropdown-item:active, .accent-blue .dropdown-item.active {
@@ -30969,23 +30873,13 @@ a.text-muted:hover {
 }
 
 .accent-green .btn-link,
-<<<<<<< HEAD
 .accent-green a:not(.dropdown-item):not(.btn-app):not(.nav-link):not(.brand-link):not(.page-link):not(.btn) {
-  color: #28a745;
-}
-
-.accent-green .btn-link:hover,
-.accent-green a:not(.dropdown-item):not(.btn-app):not(.nav-link):not(.brand-link):not(.page-link):not(.btn):hover {
-  color: #19692c;
-=======
-.accent-green a:not(.dropdown-item):not(.btn-app):not(.nav-link):not(.brand-link):not(.page-link) {
   color: #149a80;
 }
 
 .accent-green .btn-link:hover,
-.accent-green a:not(.dropdown-item):not(.btn-app):not(.nav-link):not(.brand-link):not(.page-link):hover {
+.accent-green a:not(.dropdown-item):not(.btn-app):not(.nav-link):not(.brand-link):not(.page-link):not(.btn):hover {
   color: #0b5648;
->>>>>>> 8278672c... Cag colors, layout and background images
 }
 
 .accent-green .dropdown-item:active, .accent-green .dropdown-item.active {
